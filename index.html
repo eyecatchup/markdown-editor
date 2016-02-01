@@ -186,44 +186,24 @@
   </style>
 </head>
 <body>
-  <div id="in"><pre id="code"># (GitHub-Flavored) Markdown Editor
+  <div id="in"><pre id="code">Markdown Editor
+---------------
 
-Basic useful feature list:
+Basic feature list:
 
- * Ctrl+S / Cmd+S to save the file
- * Ctrl+Shift+S / Cmd+Shift+S to choose to save as Markdown or HTML
- * Drag and drop a file into here to load it
- * File contents are saved in the URL so you can share files
+ * Ctrl+S / Cmd+S to **save to file** 
+ * Ctrl+Shift+S / Cmd+Shift+S to choose to save as **Markdown or HTML** file
+ * **Drag and drop** a file into here to load it
+ * Contents are saved in the URL so you can easily **share your notes**
 
+<br>
+<hr>
 
-I'm no good at writing sample / filler text, so go write something yourself.
-
-Look, a list!
-
- * foo
- * bar
- * baz
-
-And here's some code! :+1:
-
-```javascript
-$(function(){
-  $('div').html('I am a div.');
-});
-```
-
-This is [on GitHub](https://github.com/jbt/markdown-editor) so let me know if I've b0rked it somewhere.
+> Not familar with GFM? **Check out [the Markdown Cheat Sheet][mdref]**.
 
 
-Props to Mr. Doob and his [code editor](http://mrdoob.com/projects/code-editor/), from which
-the inspiration to this, and some handy implementation hints, came.
 
-### Stuff used to make this:
-
- * [markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing
- * [Prism](http://prismjs.com) for syntax highlighting
- * [mdEdit](https://github.com/jbt/mdEdit), my own formatted markdown editor
- * [js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs
+[mdref]: #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
 </pre></div>
   <div id="out"></div>
   <div id="menu">
